@@ -47,7 +47,12 @@
                   <input class="form-control" placeholder="CPF" name="cpf"
                     type="text" value="${param.cpf}">
                 </div>
-                <input type="submit" class="btn btn-sm btn-success" value="Incluir">
+                
+                <input type="submit" class="btn btn-success" value="Incluir">
+                <input type="submit" class="btn btn-info" value="Listar">
+                <input type="submit" class="btn btn-warning" value="Alterar">
+                <input type="submit" class="btn btn-danger" value="Alterar">
+                
               </fieldset>
             </form>
             <br>
