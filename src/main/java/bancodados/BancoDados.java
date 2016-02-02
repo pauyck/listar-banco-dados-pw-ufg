@@ -49,7 +49,7 @@ public class BancoDados {
       int matricula = rs.getInt("matricula");
       String nome = rs.getString("nome");
 
-      System.out.println("MatrÃ­cula: " + matricula);
+      System.out.println("Matrícula: " + matricula);
       System.out.println("Nome: " + nome);
       System.out.println();
     }
