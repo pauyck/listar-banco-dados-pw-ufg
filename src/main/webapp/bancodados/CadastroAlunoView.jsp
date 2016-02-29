@@ -55,25 +55,7 @@
                 
               </fieldset>
             </form>
-            <br>
-            <%
-            //Obtendo a variável definida no servlet.
-            bancodados.cadastroaluno.Aluno aluno = (bancodados.cadastroaluno.Aluno) request.getAttribute("aluno");
-            //Se parâmetros inválidos, ...
-            if (aluno.getMatricula() == null || aluno.getMatricula().trim().equals("")) {
-%>
-<!-- Aqui posso colocar HTML. -->
-<div class="alert alert-danger" role="alert">Informe a Matrícula.</div>
-<%
-            } else {
-              %>
-<!-- Aqui posso colocar HTML. -->
-<div class="alert alert-success" role="alert">
-Matrícula: <%=aluno.getMatricula()%>
-</div>
-              <%
-            }
-            %>
+            
 <table class="table">
   <thead>
     <tr>
